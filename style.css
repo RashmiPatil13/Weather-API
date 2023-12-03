@@ -114,17 +114,35 @@ h2{
 }
 
 @media screen and (max-width: 800px){
+  
+    #top1>h1{
+       
+        font-size: x-large !important;
+   }
+   #top1>p{
+       
+    font-size: larger !important;
+}
     .lon-lat{
         display: flex;
         flex-direction: column;
     }
     .map{
-        width: 600px;
+        width: 300px;
         height: 270px;
+        margin-right: 180px !important;
+       
+
+    }
+    #bottom{
+        margin-top: 40px!important ;
+        overflow: scroll;
+
     }
     .details{
         display: grid;
         margin-top: 30px !important;
-        grid-template-columns: repeat(2, 1fr);
+        //grid-template-columns: repeat(2, 1fr);
+   
     }
 }

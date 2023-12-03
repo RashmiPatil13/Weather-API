@@ -114,7 +114,10 @@ h2{
 }
 
 @media screen and (max-width: 800px){
-  
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
     #top1>h1{
        
         font-size: x-large !important;
@@ -128,21 +131,22 @@ h2{
         flex-direction: column;
     }
     .map{
-        width: 300px;
-        height: 270px;
-        margin-right: 180px !important;
+        width: 400px;
+        height: 200px;
+        margin-left: 2vw;
+       /* margin-right: 180px !important; */
        
 
     }
     #bottom{
-        margin-top: 40px!important ;
+      margin-top: 40px!important ;
         overflow: scroll;
 
     }
     .details{
         display: grid;
         margin-top: 30px !important;
-        //grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
    
     }
 }

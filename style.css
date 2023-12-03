@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:  #360369;
+
+}
+#hero{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 180px;
+}
+.btn{
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 200px;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 30px;
+}
+/* #main_container{
+    display: none;
+    background-color:  #360369;
+    /* display: grid; */
+    /* justify-content: center; */
+    /* align-items: center;
+    position: relative; */
+   
+/* } */ 
+
+
+.main_container{
+    overflow-y: auto;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.top{
+    background: #360369;
+    
+    height: 80vh;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.lon-lat{
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgb(39,08,70);
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+.bottom{
+    background-color: #e4ddeb;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+h5{
+    border-radius: 10px;
+    border: 2px solid #360369;
+    background-color: #360369;
+    color: white;
+    width: 300px;
+    height: 60px;
+    margin: 10px 20px;
+    /* padding: 0px 10px; */
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h2{
+    color: #360369;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.map{
+    margin-left: 20vw; 
+}
+
+@media screen and (max-width: 800px){
+    .lon-lat{
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+        width: 600px;
+        height: 270px;
+    }
+    .details{
+        display: grid;
+        margin-top: 30px !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
